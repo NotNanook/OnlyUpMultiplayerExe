@@ -14,3 +14,5 @@ Open the mod menu in-game, with RSHFIT
 ## Server hosting
 To use this mod you have to host your own server. 
 1. Download the server file (Dockerfile included), onto your server
+2. Build the container `docker build -t OnlyUpMultiplayer .`
+3. Run the container `docker run -d -p 50001:50001/udp OnlyUpMultiplayer` (Ports are important) 
