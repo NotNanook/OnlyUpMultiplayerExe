@@ -15,4 +15,7 @@ Open the mod menu in-game, with RSHFIT
 To use this mod you have to host your own server. 
 1. Download the server file (Dockerfile included), onto your server
 2. Build the container `docker build -t OnlyUpMultiplayer .`
-3. Run the container `docker run -d -p 50001:50001/udp OnlyUpMultiplayer` (Ports are important) 
+3. Run the container `docker run -d -p 50001:50001/udp OnlyUpMultiplayer` (Ports are important)
+
+## Support and Contribution
+I always welcome help in each and every way. If you want to donate, [here](https://ko-fi.com/notnanook) is my ko-fi page. If you want to help improve the mod, you are always welcome to create a pull request or message me on my Discord @notnanook for tips or improvements
